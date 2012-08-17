@@ -19,7 +19,7 @@ import
    OS   % for the use of OS sockets % added by V
    System
    Property
-   DPInit
+   DP
 
 export
    Offer
@@ -300,7 +300,7 @@ define
    ThisIP={ByNeed
 	   fun{$}
 	      {Wait Connection} % force the init of DP if not already done
-	      {VirtualString.toString {DPInit.getSettings}.ip}
+	      {VirtualString.toString {DP.getSettings}.ip}
 	   end}
 		      
    
