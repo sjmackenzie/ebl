@@ -15,7 +15,7 @@ ETkMisc.ozf:ETkMisc.oz
 ParametersGatherer.ozf:ParametersGatherer.oz
 	ozc -c ParametersGatherer.oz
 
-ETkAlone.ozf:ETk.oz ETkButton.oz ETkCanvas.oz ETkCheckbutton.oz ETkDialogbox.oz ETkEntry.oz ETkImage.oz ETkLabel.oz ETkLabelframe.oz ETkListbox.oz ETkMenubutton.oz ETkMessage.oz ETkPanedwindow.oz ETkRadiobutton.oz ETkScale.oz ETkScrollbar.oz ETkSpinbox.oz ETkTable.oz ETkText.oz ETkWindow.oz ETkFont.oz ETkImage.oz ETkText.oz ETkNavigator.oz ETkSelector.oz ETkFlexClock.oz
+ETkAlone.ozf:ETk.oz ETkButton.oz ETkCanvas.oz ETkCheckbutton.oz ETkDialogbox.oz ETkEntry.oz ETkImage.oz ETkLabel.oz ETkLabelframe.oz ETkListbox.oz ETkMenubutton.oz ETkMessage.oz ETkPanedwindow.oz ETkRadiobutton.oz ETkScale.oz ETkScrollbar.oz ETkSpinbox.oz ETkTable.oz ETkText.oz ETkWindow.oz ETkFont.oz ETkImage.oz ETkText.oz ETkNavigator.oz ETkSelector.oz ETkFlexclock.oz
 	ozc -c ETk.oz -o ETkAlone.ozf
 
 ETk.ozf:Com.ozf SocketConnection.ozf EBL.ozf ETkMisc.ozf ETkAlone.ozf ParametersGatherer.ozf
